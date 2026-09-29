@@ -95,8 +95,8 @@ delete repositories.
 3. Train one or more shadow models and use them to calibrate membership scores.
 4. Set `PHASE = "val"` in the notebook and produce one score per validation
    example.
-5. Validate and upload the resulting ZIP to the Phase 2 Codabench competition
-   linked from the course assignment.
+5. Validate and upload the resulting ZIP to the
+   [Phase 2 Codabench competition](https://www.codabench.org/competitions/18268/).
 
 All three target models use GPT-2 with LoRA rank 32, alpha 64, dropout 0.05,
 three epochs, block size 512, batch size 8, and learning rate `2e-4`. Their
@@ -208,4 +208,3 @@ the complete validation set and make sure the CSV has no header or blank rows.
 The base model is GPT-2, and the fine-tuning and test texts derive from
 WikiText-103. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for citations
 and upstream notices.
-
