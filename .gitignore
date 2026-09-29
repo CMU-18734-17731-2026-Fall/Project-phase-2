@@ -1,0 +1,24 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+output/
+outputs/
+checkpoints/
+wandb/
+
+data/train/prediction.csv
+data/val/prediction.csv
+data/final/prediction.csv
+project_phase*_submission.zip
+
+# Organizer-only competition files must never enter the public repository.
+reference_data-*.zip
+scoring_program-*.zip
+competition.yaml
+CMU_*Course_Project*.zip
+data/val/test_label.json
+data/final/test_label.json
+
