@@ -97,6 +97,7 @@ delete repositories.
    example.
 5. Validate and upload the resulting ZIP to the
    [Phase 2 Codabench competition](https://www.codabench.org/competitions/18268/).
+6. Submit your group's PDF report on Gradescope as described below.
 
 All three target models use GPT-2 with LoRA rank 32, alpha 64, dropout 0.05,
 three epochs, block size 512, batch size 8, and learning rate `2e-4`. Their
@@ -155,7 +156,17 @@ labels. Validation and final labels are never available in this repository.
 
 ## Phase 2 Submission
 
-For Phase 2, submit a ZIP containing exactly this logical path:
+**Deadline for both submissions: Friday, October 23, 2026, at 11:59 PM
+Eastern Time (EDT, UTC-4).**
+
+Each group must submit validation predictions to Codabench and one PDF report
+to Gradescope.
+
+### 1. Validation Predictions on Codabench
+
+Upload a ZIP to the `val` phase of the
+[Phase 2 competition](https://www.codabench.org/competitions/18268/) containing
+exactly this logical path:
 
 ```text
 val/
@@ -173,9 +184,36 @@ python scripts/make_submission.py --phase val
 python scripts/validate_submission.py project_phase2_val_submission.zip --phase val
 ```
 
-Submit once per group through the Codabench organization used by your team.
-Deadlines, report requirements, and grading details are given in the course
-assignment.
+Submit through the Codabench organization used by your team. No `final`
+predictions are required for Phase 2.
+
+### 2. PDF Report on Gradescope
+
+Submit one PDF per group to
+[Project Phase 2: Membership Inference Attack on Gradescope](https://www.gradescope.com/courses/1411687/assignments/8893015).
+Include all group members on the Gradescope submission and identify your team
+and members in the report. Assign the relevant report pages to the three
+questions when submitting.
+
+The PDF must contain:
+
+1. **Methodology (maximum 3 pages):** explain your attack, include a pipeline
+   diagram, and describe the experimental settings needed to reproduce it.
+2. **Validation results:** include a screenshot of your Codabench validation
+   score and the corresponding submission ID.
+3. **Core attack code:** include the code implementing your attack in an
+   appendix. The code must correspond to the reported submission.
+
+The 3-page limit applies to the methodology section; the results and code
+appendix are separate from that limit.
+
+The report is worth **20 points**: methodology 12, validation results 6, and
+core attack code 2.
+
+Phase 2 grading uses the Codabench submission identified in your report, which
+must be submitted before the deadline above. The leaderboard may remain open
+for the later project phase; scores submitted after the Phase 2 deadline do
+not change your Phase 2 grade.
 
 ## Reproducibility and Rules
 
