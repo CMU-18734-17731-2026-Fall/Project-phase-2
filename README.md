@@ -1,9 +1,15 @@
-# Membership Inference Attack Competition: Phase 2
+# Membership Inference Attack Competition: Phases 2 and 3
 
 Starter kit for the CMU 18-734/17-731 course project. In Phase 2, teams develop
 a white-box membership inference attack against LoRA-fine-tuned GPT-2 target
 models. The main challenge is to design a method that transfers from the
 labeled development target to targets whose membership labels are hidden.
+
+## Phase 3
+
+Use this same starter kit for the final evaluation. See the
+[Phase 3 instructions](PHASE3.md) for the final submission window, report and
+slides, and the grading rubric.
 
 ## What Is Included
 
