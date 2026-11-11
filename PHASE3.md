@@ -41,9 +41,10 @@ python scripts/validate_submission.py project_phase2_final_submission.zip --phas
 ```
 
 Choose one group member to upload the checked ZIP to the `final` phase.
-Each group gets one final submission. Keep the final submission ID for
-your report. Course staff will announce the final rankings after the
-submission window closes.
+Each group gets one final submission in total across all members and
+Codabench accounts. Only the designated member should submit for the group.
+Keep the final submission ID for your report. Course staff will announce
+the final rankings after the submission window closes.
 
 ## 2. Final report and slides on Gradescope
 
@@ -51,7 +52,14 @@ Submit **one PDF per group** to
 [Project Phase 3 on Gradescope](https://www.gradescope.com/courses/1411687/assignments/9021000).
 Combine your report, its code appendix, and your presentation slides in that
 order. List all group members in the report and add them to the submission
-in Gradescope. Assign the pages to the corresponding questions:
+in Gradescope.
+
+You may reuse and revise your Phase 2 methodology text and core attack code.
+Submit a self-contained Phase 3 report that includes the final evaluation,
+a comparison with validation when available, and the limitations of your
+method.
+
+Assign the pages to the corresponding questions:
 
 1. **Methodology and Analysis.** Use at most three methodology pages.
    Include an attack pipeline diagram, an explanation of the major steps,
