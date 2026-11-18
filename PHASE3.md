@@ -13,10 +13,11 @@ All times are Eastern Standard Time (EST, UTC-5).
 
 | Milestone | Date and time |
 | --- | --- |
-| Validation submissions close | Sunday, November 29 at 11:59 p.m. |
-| Final submissions open | Monday, November 30 at 12:05 a.m. |
-| Final predictions due on Codabench | Tuesday, December 1 at 11:59 p.m. |
-| Final report and slides due on Gradescope | Thursday, December 3 at 11:59 p.m. |
+| Validation submissions close | Saturday, November 28 at 11:59 p.m. |
+| Final submissions open | Sunday, November 29 at 12:05 a.m. |
+| Final predictions due on Codabench | Monday, November 30 at 12:00 noon |
+| Final presentations | In class on Monday, November 30 and Wednesday, December 2, according to your group's assigned slot |
+| Final report due on Gradescope (one per team) | Thursday, December 10 at 11:59 p.m. |
 
 ## 1. Predictions on Codabench
 
@@ -46,13 +47,14 @@ Codabench accounts. Only the designated member should submit for the group.
 Keep the final submission ID for your report. Course staff will announce
 the final rankings after the submission window closes.
 
-## 2. Final report and slides on Gradescope
+## 2. Final report on Gradescope
 
 Submit **one PDF per group** to
 [Project Phase 3 on Gradescope](https://www.gradescope.com/courses/1411687/assignments/9021000).
-Combine your report, its code appendix, and your presentation slides in that
-order. List all group members in the report and add them to the submission
-in Gradescope.
+Combine your report, its code appendix, and a copy of your presentation slides
+in that order. The slides document your in-class presentation on November 30
+or December 2. The final report is due December 10. List all group members in
+the report and add them to the submission in Gradescope.
 
 You may reuse and revise your Phase 2 methodology text and core attack code.
 Submit a self-contained Phase 3 report that includes the final evaluation,
@@ -73,9 +75,11 @@ Assign the pages to the corresponding questions:
    the score as pending. Staff verify both results on Codabench.
 3. **Core Attack Code.** Include the code for the scoring and calibration
    used in the submitted attack in an appendix.
-4. **Presentation and Q&A.** Append slides that explain the problem,
-   method, key experiments, results, and limitations. Presentation times
-   will be announced in class.
+4. **Presentation and Q&A.** Present in class on November 30 or December 2,
+   according to your group's assigned slot. Prepare slides that explain the
+   problem, method, key experiments, results, and limitations. Append a copy
+   of these slides to your final report for reference. This component is
+   assessed from the in-class presentation and discussion.
 
 The results pages, code appendix, and slides are separate from the
 three-page methodology limit.
